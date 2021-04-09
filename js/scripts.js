@@ -52,5 +52,57 @@ function getGender(){
     else {
         return false
     }
-    
+    switch(gender){
+        case "male";
+        if (dayValue == 1){
+            alert ("you were bon on " + dayNames[0] + "and your akan name is" +maleNames[0] + "!")
+        }
+        if (dayValue == 2){
+            alert ("you were bon on " + dayNames[1] + "and your akan name is" +maleNames[1] + "!")
+        }
+        if (dayValue == 3){
+            alert ("you were bon on " + dayNames[2] + "and your akan name is" +maleNames[2] + "!")
+        }
+        if (dayValue == 4){
+            alert ("you were bon on " + dayNames[3] + "and your akan name is" +maleNames[3] + "!")
+        }
+        if (dayValue == 5){
+            alert ("you were bon on " + dayNames[4] + "and your akan name is" +maleNames[4] + "!")
+        }
+        if (dayValue == 6){
+            alert ("you were bon on " + dayNames[5] + "and your akan name is" +maleNames[5] + "!")
+        }
+        if (dayValue == -0){
+            alert ("you were bon on " + dayNames[6] + "and your akan name is" +maleNames[6] + "!")
+        } 
+        break
+        case "female";
+        if (dayValue == 1){
+            alert ("you were bon on " + dayNames[0] + "and your akan name is" +maleNames[0] + "!")
+        }
+        if (dayValue == 2){
+            alert ("you were bon on " + dayNames[1] + "and your akan name is" +maleNames[1] + "!")
+        }
+        if (dayValue == 3){
+            alert ("you were bon on " + dayNames[2] + "and your akan name is" +maleNames[2] + "!")
+        }
+        if (dayValue == 4){
+            alert ("you were bon on " + dayNames[3] + "and your akan name is" +maleNames[3] + "!")
+        }
+        if (dayValue == 5){
+            alert ("you were bon on " + dayNames[4] + "and your akan name is" +maleNames[4] + "!")
+        }
+        if (dayValue == 6){
+            alert ("you were bon on " + dayNames[5] + "and your akan name is" +maleNames[5] + "!")
+        }
+        if (dayValue == -0){
+            alert ("you were bon on " + dayNames[6] + "and your akan name is" +maleNames[6] + "!")
+        } 
+      break
+      default;  
+    }
+}
+function findName(){
+    dayValue =evaluateDayValue
+    getGender();
 }
