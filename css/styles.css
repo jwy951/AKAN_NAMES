@@ -72,3 +72,12 @@ transform: scale(1.0);
         height: 55%;
     }
 }
+.card{
+    background: rgb(123, 80, 163);
+}
+.card-body{
+    color: #7fff00;
+    font-weight: 600;
+    font-family: cambria;
+    font-size: 18px;
+}
