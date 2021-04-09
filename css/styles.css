@@ -80,4 +80,16 @@ transform: scale(1.0);
     font-weight: 600;
     font-family: cambria;
     font-size: 18px;
+    text-align: center;
+}
+.card-deck{
+    padding-bottom: 18px;
+    font-weight: 600;
+    font-family: cambria;
+    font-size: 18px;
+    text-align: center;
+}
+.card-text a:hover{
+    color: rgb(57, 133, 42);
+    text-decoration: none;
 }
