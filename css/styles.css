@@ -35,3 +35,16 @@ h2{
      margin-bottom: 18px;
     padding-bottom: 18px;
  }
+ .form-group{
+     color: #7fff00;
+     font-weight: 600;
+     font-size: 18px;
+     font-family: cursive;
+ }
+ .form-check-label{
+     color: #7fff00;
+ }
+ input[type="radio"]{
+-webkit-transform: scale(1.0);
+transform: scale(1.0);
+ }
