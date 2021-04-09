@@ -23,6 +23,7 @@ h2{
     font-weight: bold;
     color: #7fff00;
     font-family: cursive;
+
 }
  .overlay{
      background-color: rgb(123, 80, 163);
@@ -48,3 +49,9 @@ h2{
 -webkit-transform: scale(1.0);
 transform: scale(1.0);
  }
+@media only screen and (max-width: 550px){
+    .overlay{
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+}
