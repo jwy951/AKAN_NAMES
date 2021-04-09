@@ -1,0 +1,37 @@
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    color: aqua;
+    margin-top: 10px;
+    padding-bottom: 2px;
+    font-size: 50px;
+    text-shadow: 3px 3px 6px blue;
+}
+#know{
+    color: rgb(55, 0, 255);
+    text-shadow: 3px 3px 6px rgb(102, 255, 0);
+    margin-bottom: 8px;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    color: #7fff00;
+    font-family: cursive;
+}
+ .overlay{
+     background-color: rgb(123, 80, 163);
+     margin-left: 25%;
+     margin-right: 16%;
+     opacity: 1;
+     border-radius: 12px;
+ }
+ .form{
+     margin-bottom: 18px;
+    padding-bottom: 18px;
+ }
