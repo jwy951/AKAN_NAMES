@@ -1,4 +1,4 @@
-var CC, YY, MM, DD, dayValue;
+var CC, YY, MM, DD, d, dayValue;
 var dayNames = ["SUnday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var maleNames =["Kwasi", "Kwadwo", "kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames =["Akosu", "adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];

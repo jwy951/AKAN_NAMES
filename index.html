@@ -21,7 +21,7 @@
     <div class="overlay">
         <div class="container">
            <h2>Personal details</h2>
-           <form action="detailsForm" class="form" onclick="validate ();">
+           <form name="myForm" class="form" onsubmit="validate ();">
             <div class="form-group">
                 <label for="number">Year of Birth:</label>
                 <input type="number" class="form-control" id="year" placeholder="Yaar of Birth" name= "year">
@@ -47,7 +47,7 @@
                     </label>
                 </div>
             </div>
-            <button type="submit" class="btn btn-warning" onclick="SearchName ();">GetName</button><br>
+            <button type="submit" class="btn btn-warning" onclick="findName ();">GetName</button><br>
         </form>
         <p id="results"> </p>
         </div>
