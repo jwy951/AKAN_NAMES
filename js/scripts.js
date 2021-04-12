@@ -100,7 +100,7 @@ function getGender(){
         alert("You were born on " +dayNames[6] + " and Your akan name is " +femaleNames[6]+"!");
       }
     break
-
+    default
           
   }
 }
